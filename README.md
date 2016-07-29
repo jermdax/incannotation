@@ -8,10 +8,15 @@ configure what action is to be taken on encountering an annotated declaration.
 
 These annotations are limited to declarations.
 
+## Dependancies
+This requires standard unix utilities, gcc, 
+[pycparser](https://github.com/eliben/pycparser), python
+
+## Compiling/ building
+TODO
+
 ## Attributions/ credit
 [eliben](https://github.com/eliben)s 
 [pycparser](https://github.com/eliben/pycparser) is used for this project, 
 along with many common unix utilities.
 
-## Compiling/ building
-TODO
