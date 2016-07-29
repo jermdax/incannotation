@@ -1,0 +1,15 @@
+function process(file_path):
+  if c is a directory
+    for each child 'c' of a given directory
+      process(file_path + c)
+  else if c is a .c file
+    create a copy of it without the '#includes'
+    strip the multiline comments, and single line ones
+    for each keyword kw
+      get the line numbers of all occurances of kw
+      from them remove all the ones inside quotes
+    build the AST from the code
+    for each AST node that is closest to the corresponding macro
+      get the operation to apply to that ast from a config file
+      apply that code modification
+    restore all the '#includes'
