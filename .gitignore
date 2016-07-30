@@ -6,3 +6,5 @@ build/
 *.swp
 *.swo
 *.pyc
+incannotation_cl/
+incannotation_svr/

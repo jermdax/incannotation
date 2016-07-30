@@ -1,0 +1,6 @@
+[submodule "nanomsg"]
+	path = nanomsg
+	url = https://github.com/nanomsg/nanomsg
+[submodule "pycparser"]
+	path = pycparser
+	url = https://github.com/eliben/pycparser

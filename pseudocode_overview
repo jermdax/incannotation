@@ -1,6 +1,6 @@
 function process(file_path):
-  if c is a directory
-    for each child 'c' of a given directory
+  if file_path is a directory
+    for each child 'c' of the directory
       process(file_path + c)
   else if c is a .c file
     create a copy of it without the '#includes'
@@ -13,3 +13,10 @@ function process(file_path):
       get the operation to apply to that ast from a config file
       apply that code modification
     restore all the '#includes'
+
+
+################# MARK 2 ################# 
+copy the entire directory to a generated server directory
+copy it also to a generated client directory
+recursively grep the directory for the special string
+store all occuring files and line numbers in a file
